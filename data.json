@@ -1,0 +1,20 @@
+[
+    {
+        "id": "123456789",
+        "name": "أحمد محمد",
+        "age": 25,
+        "email": "ahmed@example.com"
+    },
+    {
+        "id": "987654321",
+        "name": "سارة علي",
+        "age": 30,
+        "email": "sarah@example.com"
+    },
+    {
+        "id": "409332244",
+        "name": "زين حسن",
+        "age": 21,
+        "email": "zain@example.com"
+    }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استبيان برقم الهوية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>استبيان برقم الهوية</h1>
+        <form id="id-form">
+            <label for="id-number">أدخل رقم الهوية:</label>
+            <input type="text" id="id-number" placeholder="123456789" required>
+            <button type="submit">عرض المعلومات</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>معلومات المستخدم:</h2>
+            <p><strong>الاسم:</strong> <span id="name"></span></p>
+            <p><strong>العمر:</strong> <span id="age"></span></p>
+            <p><strong>البريد الإلكتروني:</strong> <span id="email"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
